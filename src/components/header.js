@@ -4,21 +4,28 @@ import styled from "@emotion/styled"
 
 const Header = styled.header`
   display: flex;
-  justify-content: space-between;
+  margin: 0 auto;
 `
 
 const NavLink = styled(Link)`
-  margin-right: 20px;
+  margin: 0 15px;
 `
 
 export default () => (
   <Header>
-    <NavLink to="/">Lamno</NavLink>
     <nav>
-      <NavLink to="/">Home</NavLink>
-      <NavLink to="/blog">Blog</NavLink>
-      <NavLink to="/gallery">Gallery</NavLink>
-      <NavLink to="/contact">Contact</NavLink>
+      <NavLink to="/" activeClassName="active">
+        Home
+      </NavLink>
+      <NavLink to="/blog" activeClassName="active">
+        Blog
+      </NavLink>
+      <NavLink to="/gallery" activeClassName="active">
+        Gallery
+      </NavLink>
+      <NavLink to="/contact" activeClassName="active">
+        Contact
+      </NavLink>
     </nav>
   </Header>
 )
