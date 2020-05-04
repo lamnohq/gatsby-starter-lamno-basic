@@ -9,6 +9,9 @@ const Header = styled.header`
 
 const NavLink = styled(Link)`
   margin: 0 15px;
+  &.active {
+    font-weight: bold;
+  }
 `
 
 export default () => (
