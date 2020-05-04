@@ -66,7 +66,7 @@ export default ({ children }) => {
             Crafted with &hearts; in Sydney using{" "}
             <a href="https://www.gatsbyjs.org/">Gatsby</a>
           </div>
-          <Link to="/legal">legal</Link>
+          <Link to="/legal">Legal</Link>
         </Footer>
       </div>
     </>
