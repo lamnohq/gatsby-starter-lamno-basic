@@ -6,7 +6,7 @@ import Image from "gatsby-image"
 import Layout from "../components/layout"
 
 const HomeImage = styled(Image)`
-  width: 100%;
+  height: 90vh;
   object-fit: cover;
 `
 
